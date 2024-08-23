@@ -37,3 +37,6 @@ Here's the CSS rules that I added:
 Like Twine itself, Twine Mobile is a Progressive Web App (PWA). This means it can be installed to your device through your web browser. The major advantage of doing this would be that you will have more screen real estate to work with, since there won't be the address bar at the top. 
 
 The process for doing so may vary by device and browser. Google would be your best bet on figuring out how to do so if you don't know how to.
+
+## Screenshot
+![Screenshot](assets/Screenshot_20240823-191547.png)
