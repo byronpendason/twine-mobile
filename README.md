@@ -7,28 +7,26 @@ You can access Twine Mobile by going to <https://www.minewyrtruman.com/twine-mob
 Here's the CSS rules that I added: 
 
 ```css
-@media only screen and (max-width: 600px) {
-    .button-bar {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: nowrap;
-        overflow-x: scroll;
-        overflow-y: clip
-    }
-    .react-tabs__tab-panel--selected .button-bar.orientation-horizontal {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: nowrap;
-        overflow-x: scroll;
-        overflow-y: clip
-    }
-    .button-bar button {
-        width: fit-content;
-        text-wrap: nowrap
-    }
-    .route-toolbar-top {
-        overflow-x: scroll
-    }
+@media only screen and (max-width:600px) {
+
+	.button-bar,
+	.react-tabs__tab-panel--selected .button-bar.orientation-horizontal,
+	.route-toolbar-top {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: nowrap;
+		overflow-x: scroll;
+		overflow-y: clip
+	}
+
+	.button-bar button {
+		width: fit-content;
+		text-wrap: nowrap
+	}
+
+	.storage-quota {
+		display: none
+	}
 }
 ```
 
